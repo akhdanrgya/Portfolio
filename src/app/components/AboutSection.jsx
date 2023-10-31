@@ -12,9 +12,10 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Express</li>
         <li>MongoDB</li>
-        <li>Sequelize</li>
         <li>JavaScript</li>
         <li>React</li>
+        <li>After Effect</li> 
+        <li>Blender</li> 
       </ul>
     ),
   },
