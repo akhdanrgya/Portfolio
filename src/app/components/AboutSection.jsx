@@ -53,11 +53,11 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} alt=""/>
+        <Image src="/images/about.jpg" width={500} height={500} alt=""/>
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Hello, my name is Akhdan Anargya Arisadi,  Full Stack Web Developer expert in technologies like Javascript, React JS, Node JS etc.. With experience in databases such as MongoDB, MySQL, and PostgreSQL, I am dedicated to creating efficient and responsive web applications that stand out.
+          Hello, my name is Akhdan Anargya Arisadi, Full Stack Web Developer with expertise in JavaScript, React JS, Node JS, and experience with databases like MongoDB, MySQL, and PostgreSQL. Adding skills in visual effects (VFX) using software such as After Effects and Blender can enhance the appeal of web applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
