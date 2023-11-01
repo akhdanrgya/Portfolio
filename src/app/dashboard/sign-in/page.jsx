@@ -10,6 +10,7 @@ const Signin = () => {
   const [msg, setMsg] = useState("")
   const router = useRouter()
 
+
   const submitHandler = () => {
     if (email !== "test@gmail.com"){
         setMsg("Email tidak valid")
@@ -18,7 +19,7 @@ const Signin = () => {
     }else if (email !== "test@gmail.com" || password !== "12345"){
         setMsg("Email dan Password tidak valid")
     }else{
-        router.push('/dashboard')
+        
     }
   }
 
