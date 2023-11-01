@@ -1,7 +1,7 @@
 const Page = () => {
     return (
         <div>
-            test
+            dashboard page
         </div>
     )
 }
