@@ -24,7 +24,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>SMA A Wahid Hasyim</li>
+        <li>SMA A Wahid Hasyim Tebuireng</li>
         <li>Telkom University</li>
       </ul>
     ),
