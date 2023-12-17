@@ -35,6 +35,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Dicoding Logic Programming 101</li>
+        <li>Dicoding NodeJS Back-End</li>
       </ul>
     ),
   },
