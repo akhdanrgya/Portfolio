@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Akhdan Anargya full stack web developer and VFX artist
+            Muhammad Daffa Hadi R Finance
           </p>
           <div>
             <Link

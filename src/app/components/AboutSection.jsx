@@ -9,13 +9,10 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>MongoDB</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>After Effect</li> 
-        <li>Blender</li> 
+        <li>Accounting</li>
+        <li>Fiscal</li>
+        <li>Business Development</li>
+        <li>Financial Planner</li>
       </ul>
     ),
   },
@@ -24,8 +21,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>SMA A Wahid Hasyim Tebuireng</li>
-        <li>Telkom University</li>
+        <li>MASS Tebuireng</li>
+        <li>Universitas Indonesia</li>
       </ul>
     ),
   },
@@ -34,8 +31,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Dicoding Logic Programming 101</li>
-        <li>Dicoding NodeJS Back-End</li>
+        {/* <li>Dicoding Logic Programming 101</li>
+        <li>Dicoding NodeJS Back-End</li> */}
       </ul>
     ),
   },
@@ -58,7 +55,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          Hello, my name is Akhdan Anargya Arisadi, Full Stack Web Developer with expertise in JavaScript, React JS, Node JS, and experience with databases like MongoDB, MySQL, and PostgreSQL. Adding skills in visual effects (VFX) using software such as After Effects and Blender can enhance the appeal of web applications.
+Hello, my name is Muhammad Daffa Hadi R, a Financial Planner with expertise in Accounting and Business Development. My experience includes creating financial strategies, managing accounting systems, and developing business plans to drive growth and profitability.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

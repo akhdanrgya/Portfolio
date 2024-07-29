@@ -5,33 +5,33 @@ import ProjectTag from "./ProjectTag";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
-  {
-    id: 1,
-    title: "Nextjs Portfolio Website",
-    description: "Creating a portfolio website with Next.js 13, Tailwind, and more, with responsive design.",
-    image: "/images/projects/port-web.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 2,
-    title: "VFX Smoke and 3D Track",
-    description: "Creating visual effects using smoke simulation in Blender and tracking in After Effects.",
-    image: "/images/projects/vfx-1.png",
-    tag: ["All", "VFX"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "Caleg Website Portofolio",
-    description: "Creating a caleg website with responsive design",
-    image: "/images/projects/port-caleg.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+  // {
+  //   id: 1,
+  //   title: "Nextjs Portfolio Website",
+  //   description: "Creating a portfolio website with Next.js 13, Tailwind, and more, with responsive design.",
+  //   image: "/images/projects/port-web.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
+  // {
+  //   id: 2,
+  //   title: "VFX Smoke and 3D Track",
+  //   description: "Creating visual effects using smoke simulation in Blender and tracking in After Effects.",
+  //   image: "/images/projects/vfx-1.png",
+  //   tag: ["All", "VFX"],
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Caleg Website Portofolio",
+  //   description: "Creating a caleg website with responsive design",
+  //   image: "/images/projects/port-caleg.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "/",
+  //   previewUrl: "/",
+  // },
   // {
   //   id: 4,
   //   title: "Food Ordering Application",
@@ -89,16 +89,6 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="All"
           isSelected={tag === "All"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="VFX"
-          isSelected={tag === "VFX"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
